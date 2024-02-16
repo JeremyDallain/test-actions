@@ -3,4 +3,5 @@ function sum(a, b) {
   + b;
 }
 
+const test=12
 module.exports = sum;
