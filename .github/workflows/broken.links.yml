@@ -12,5 +12,7 @@ jobs:
       uses: actions/setup-node@v2
       with:
         node-version: 16.x
+    - name: Attendre le déploiement sur github pages
+      run: sleep 120
     - run: npm install broken-link-checker
-    - run: npx blc https://jeremydallain.github.io/test-actions -ro
+    - run: npx blc https://jeremydallain.github.io/test-actions -ro -f 3
