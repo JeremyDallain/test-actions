@@ -15,7 +15,7 @@ jobs:
           node-version: ${{ matrix.node-version }}
 
       - name: Install Dependencies
-        run: npm i
+        run: npm install
 
       - name: Check formatting
         run: npx prettier --check .
