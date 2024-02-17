@@ -6,6 +6,7 @@
     "test": "jest"
   },
   "dependencies": {
-    "broken-link-checker": "^0.7.8"
+    "broken-link-checker": "^0.7.8",
+    "prettier": "^3.2.5"
   }
 }
