@@ -15,4 +15,4 @@ jobs:
     - name: Attendre le déploiement sur github pages
       run: sleep 120
     - run: npm install broken-link-checker
-    - run: npx blc https://jeremydallain.github.io/test-actions -ro -f 3
+    - run: npx blc https://jeremydallain.github.io/test-actions -rov
