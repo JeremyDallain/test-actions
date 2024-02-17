@@ -13,4 +13,4 @@ jobs:
       with:
         node-version: 16.x
     - run: npm install broken-link-checker
-    - run: npx blc https://jeremydallain.github.io/test-actions/ -ro
+    - run: npx blc https://jeremydallain.github.io/test-actions -ro
