@@ -1,4 +1,5 @@
 name: Check format with Prettier
+
 on: [push, pull_request]
 
 jobs:
