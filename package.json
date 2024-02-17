@@ -1,12 +1,12 @@
 {
   "devDependencies": {
-    "jest": "^29.7.0"
+    "jest": "^29.7.0",
+    "broken-link-checker": "^0.7.8",
+    "prettier": "^3.2.5"
   },
   "scripts": {
     "test": "jest"
   },
   "dependencies": {
-    "broken-link-checker": "^0.7.8",
-    "prettier": "^3.2.5"
   }
 }
