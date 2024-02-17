@@ -13,6 +13,6 @@ jobs:
       with:
         node-version: 16.x
     - name: Attendre le déploiement sur github pages
-      run: sleep 80
+      run: sleep 70
     - run: npm install broken-link-checker
-    - run: npx blc https://jeremydallain.github.io/test-actions
+    - run: npx blc https://jeremydallain.github.io/test-actions -v
