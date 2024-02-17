@@ -1,9 +1,9 @@
-name: Check Broken Links
+name: Run Jest Tests
 
 on: [push, pull_request]
 
 jobs:
-  check-links:
+  tests:
     runs-on: ubuntu-latest
     strategy:
       matrix:
@@ -15,7 +15,5 @@ jobs:
         uses: actions/setup-node@v2
         with:
           node-version: ${{ matrix.node-version }}
-      - name: Attendre le déploiement sur github pages
-        run: sleep 70
       - run: npm install
-      - run: npx blc https://jeremydallain.github.io/test-actions -v
+      - run: npm test
